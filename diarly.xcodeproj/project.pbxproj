@@ -14,6 +14,9 @@
 		A137CE4522B8A47E00FF80E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A137CE4322B8A47E00FF80E7 /* LaunchScreen.storyboard */; };
 		A137CE5022B8A47E00FF80E7 /* diarlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137CE4F22B8A47E00FF80E7 /* diarlyTests.swift */; };
 		A137CE5B22B8A47E00FF80E7 /* diarlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A137CE5A22B8A47E00FF80E7 /* diarlyUITests.swift */; };
+		A1A8011A22BBB09700978618 /* calenderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8011922BBB09700978618 /* calenderCollectionViewCell.swift */; };
+		A1A8011C22BBB0B700978618 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8011B22BBB0B700978618 /* DateManager.swift */; };
+		A1A8011E22BBB25C00978618 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A8011D22BBB25C00978618 /* CalenderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A137CE5622B8A47E00FF80E7 /* diarlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diarlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A137CE5A22B8A47E00FF80E7 /* diarlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diarlyUITests.swift; sourceTree = "<group>"; };
 		A137CE5C22B8A47E00FF80E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1A8011922BBB09700978618 /* calenderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderCollectionViewCell.swift; sourceTree = "<group>"; };
+		A1A8011B22BBB0B700978618 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		A1A8011D22BBB25C00978618 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				A137CE4122B8A47E00FF80E7 /* Assets.xcassets */,
 				A137CE4322B8A47E00FF80E7 /* LaunchScreen.storyboard */,
 				A137CE4622B8A47E00FF80E7 /* Info.plist */,
+				A1A8011922BBB09700978618 /* calenderCollectionViewCell.swift */,
+				A1A8011B22BBB0B700978618 /* DateManager.swift */,
+				A1A8011D22BBB25C00978618 /* CalenderViewController.swift */,
 			);
 			path = diarly;
 			sourceTree = "<group>";
@@ -256,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A8011E22BBB25C00978618 /* CalenderViewController.swift in Sources */,
+				A1A8011A22BBB09700978618 /* calenderCollectionViewCell.swift in Sources */,
+				A1A8011C22BBB0B700978618 /* DateManager.swift in Sources */,
 				A137CE3D22B8A47B00FF80E7 /* ViewController.swift in Sources */,
 				A137CE3B22B8A47B00FF80E7 /* AppDelegate.swift in Sources */,
 			);
